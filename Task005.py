@@ -3,5 +3,5 @@
 import os
 os.system("cls")
 
-n = 60
+n = 90
 print(bool(((n % 5 == 0 and n % 10 == 0) or n % 15 == 0) and n % 30 !=0))
