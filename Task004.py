@@ -9,3 +9,14 @@ number3 = number2[1]
 #print(number3)
 number_fin =number3[0]
 print((number_fin))
+
+# РЕГУЛЯРНЫМИ ВЫРАЖЕНИЯМИ
+
+import re
+
+# математический вариант
+num = float(input('Введите число: '))
+print(int(num * 10 % 10))
+
+# через регулярное выражение.
+print(str(re.search(r'[.]\d', str(num)))[-3])
