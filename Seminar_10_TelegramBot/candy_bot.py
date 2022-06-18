@@ -3,7 +3,7 @@
 import telebot
 import random
 
-bot = telebot.TeleBot("5445588985:AAH4Wri8nHRh-h0cP0I4H1Fwka9VY68U6vk")
+bot = telebot.TeleBot("PasteYourToken")
 
 candy = 0
 fate = 0
